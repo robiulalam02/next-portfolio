@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* If you need to define custom colors or variables, do it here */
+@theme {
+  --color-primary: #3b82f6;
+  --color-background: #0a0a0a;
+  --color-foreground: #ededed;
+}
+
+:root {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
