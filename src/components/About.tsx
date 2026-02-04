@@ -87,17 +87,17 @@ const About = () => {
                                 {/* Internship Experience */}
                                 <div className="relative pl-10 mb-10">
                                     <div className="absolute left-0 top-1.5 w-6 h-6 bg-white dark:bg-[#0a0a0a] border-2 border-blue-500 rounded-full z-10 shadow-[0_0_10px_rgba(59,130,246,0.3)]"></div>
-                                    <h4 className="text-slate-900 dark:text-white font-bold text-lg">Frontend Developer Intern</h4>
-                                    <p className="text-blue-600 dark:text-blue-400 font-mono text-sm">Oct 2025 — Dec 2025</p>
-                                    <p className="text-slate-500 dark:text-gray-400 text-sm mt-1 font-medium">DIGI5 LTD</p>
+                                    <h4 className="text-slate-900 dark:text-white font-bold text-lg text-start">Frontend Developer Intern</h4>
+                                    <p className="text-blue-600 dark:text-blue-400 font-mono text-sm text-start">Oct 2025 — Dec 2025</p>
+                                    <p className="text-slate-500 dark:text-gray-400 text-sm mt-1 font-medium text-start">DIGI5 LTD</p>
                                 </div>
 
                                 {/* Diploma Education */}
                                 <div className="relative pl-10">
                                     <div className="absolute left-0 top-1.5 w-6 h-6 bg-white dark:bg-[#0a0a0a] border-2 border-purple-500 rounded-full z-10"></div>
-                                    <h4 className="text-slate-900 dark:text-white font-bold text-lg leading-snug">Diploma in Telecommunication</h4>
-                                    <p className="text-purple-600 dark:text-purple-400 font-mono text-sm">March 2023 — Present</p>
-                                    <p className="text-slate-500 dark:text-gray-400 text-sm mt-2 flex items-center gap-1 italic">
+                                    <h4 className="text-slate-900 dark:text-white font-bold text-lg leading-snug text-start">Diploma in Telecommunication</h4>
+                                    <p className="text-purple-600 dark:text-purple-400 font-mono text-sm text-start">March 2023 — Present</p>
+                                    <p className="text-slate-500 dark:text-gray-400 text-sm mt-2 flex items-center gap-1 italic text-start">
                                         <Globe size={14} /> Feni Computer Institute
                                     </p>
                                 </div>

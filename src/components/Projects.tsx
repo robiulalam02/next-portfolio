@@ -16,7 +16,7 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
     {
         title: "Quiz Pilot - AI Powered Quiz App",
-        description: "A full-featured e-commerce platform with Stripe payment, admin dashboard, and real-time inventory tracking.",
+        description: "An AI-driven learning ecosystem that generates programming quizzes, features a real-time global leaderboard, and provides an integrated AI chatbot for personalized study recommendations and performance analysis.",
         tech: ["Next.js", "Gemini API", "React", "Node.js"],
         github: "#",
         live: "#",
@@ -32,7 +32,7 @@ const projects = [
     },
     {
         title: "Booksleaf - Online Bookshelf",
-        description: "A collaborative task management tool with drag-and-drop features and real-time updates via Socket.io.",
+        description: "A comprehensive digital library platform for managing personal collections, reading books online, and tracking progress. It features a community-driven review system and real-time reading status updates to help users organize their literary journey.",
         tech: ["React", "Node.js", "Express.js", "MongoDB"],
         github: "#",
         live: "#",
