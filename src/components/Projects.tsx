@@ -6,10 +6,11 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// Import your project images
+// project images
 import project1 from "@/assets/projects/quiz-pilot.webp"
 import project2 from "@/assets/projects/bikroy-haat.webp"
 import project3 from "@/assets/projects/booksleaf.webp"
+import project4 from "@/assets/projects/viralift.webp"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,25 +18,33 @@ const projects = [
     {
         title: "Quiz Pilot - AI Powered Quiz App",
         description: "An AI-driven learning ecosystem that generates programming quizzes, features a real-time global leaderboard, and provides an integrated AI chatbot for personalized study recommendations and performance analysis.",
-        tech: ["Next.js", "Gemini API", "React", "Node.js"],
-        github: "#",
-        live: "#",
+        tech: ["Next.js", "Gemini API", "MongoDB", "Express.js"],
+        github: "https://github.com/AsyncRifat/quiz-pilot",
+        live: "https://quiz-pilot-sbpg.vercel.app",
         image: project1
     },
     {
         title: "Bikroy Haat - Online Grocery Store",
         description: "A full-featured grocery store platform with Stripe payment, admin dashboard, and real-time inventory tracking.",
-        tech: ["MongoDB", "Express", "React", "Node.js"],
-        github: "#",
-        live: "#",
+        tech: ["MongoDB", "Express", "React", "Node.js", "Stripe", "Tailwind CSS"],
+        github: "https://github.com/robiulalam02/bikroy-haat-client",
+        live: "https://bikroy-haat.web.app",
         image: project2
+    },
+    {
+        title: "Viralift | AI Video SEO Optimizer",
+        description: "Viralift is an intelligent SaaS application that helps creators to generate Hight-CTR Titles, Viral Hooks & SEO Tags for Facebook, Instagram & Youtube. Reducing research time by 90% and boosting organic reach",
+        tech: ["Next.js", "Typescript", "Gemini API", "Tailwind CSS", "Framer Motion"],
+        github: "https://github.com/robiulalam02/viralift",
+        live: "https://viralift.vercel.app",
+        image: project4
     },
     {
         title: "Booksleaf - Online Bookshelf",
         description: "A comprehensive digital library platform for managing personal collections, reading books online, and tracking progress. It features a community-driven review system and real-time reading status updates to help users organize their literary journey.",
         tech: ["React", "Node.js", "Express.js", "MongoDB"],
-        github: "#",
-        live: "#",
+        github: "https://github.com/robiulalam02/booksleaf-client",
+        live: "https://booksleaf-7a4b5.web.app",
         image: project3
     }
 ];
@@ -87,7 +96,7 @@ const Projects = () => {
                 {/* Horizontal Container */}
                 <div ref={sectionRef} className="flex flex-1 w-[300vw] items-center pb-12">
                     {projects.map((project, index) => (
-                        <div key={index} className="w-[100vw] h-full flex items-center justify-center px-6 pb-12">
+                        <div key={index} className="w-screen h-full flex items-center justify-center px-6 pb-12">
 
                             <motion.div
                                 className="relative flex flex-col md:flex-row bg-gray-50 dark:bg-[#111] rounded-[2.5rem] border border-gray-200 dark:border-white/10 overflow-hidden shadow-xl w-full max-w-7xl h-[100%] max-h-[600px] transition-colors duration-500"
@@ -122,11 +131,11 @@ const Projects = () => {
                                         ))}
                                     </div>
 
-                                    <h3 className="text-2xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4 md:mb-6 tracking-tight">
+                                    <h3 className="text-xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 md:mb-6 tracking-tight">
                                         {project.title}
                                     </h3>
 
-                                    <p className="text-slate-600 dark:text-gray-400 text-sm md:text-lg leading-relaxed mb-6 md:mb-10 line-clamp-3 md:line-clamp-none">
+                                    <p className="text-slate-600 dark:text-gray-400 text-sm md:text-[1rem] leading-relaxed mb-6 md:mb-10 line-clamp-3 md:line-clamp-none">
                                         {project.description}
                                     </p>
 
