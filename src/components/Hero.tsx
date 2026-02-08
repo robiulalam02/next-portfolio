@@ -35,8 +35,8 @@ import HeroActions from "./HeroActions";
                         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-slate-900 dark:text-white leading-tight">
                             Robiul Alam. <br />
                             <div className="text-slate-500 dark:text-gray-400 mt-2">
-                                <p className="text-3xl md:text-4xl">I am a</p>
-                                <p className="text-blue-600 dark:text-blue-500 text-4xl md:text-6xl min-w-[250px]">
+                                <p className="text-2xl md:text-3xl">I am a</p>
+                                <p className="text-blue-600 dark:text-blue-500 text-3xl md:text-5xl min-w-[250px]">
                                     <Typewriter
                                         words={["MERN Developer", "Next.js Expert", "Fullstack Developer", "Frontend Developer"]}
                                         loop={0}
