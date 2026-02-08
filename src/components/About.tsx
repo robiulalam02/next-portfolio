@@ -40,12 +40,12 @@ const About = () => {
                                 </div>
                                 <h3 className="text-2xl font-semibold">My Journey</h3>
                             </div>
-                            <p>
+                            <p className="text-start md:text-center">
                                 Hello! I'm <span className="text-slate-900 dark:text-white font-medium">Robiul Alam</span>, a passionate
                                 <span className="text-blue-600 dark:text-blue-500 font-semibold"> MERN Stack Developer</span>.
                                 I specialize in turning complex ideas into functional, beautiful web applications.
                             </p>
-                            <p className="mt-4 text-base md:text-lg">
+                            <p className="mt-4 text-base md:text-lg text-start md:text-center">
                                 During my recent internship at <span className="text-slate-900 dark:text-white font-medium">DIGI5 LTD</span>, I honed my skills in
                                 building responsive, high-performance user interfaces. I am deeply committed to the
                                 <span className="text-slate-900 dark:text-white font-medium font-medium"> Next.js</span> ecosystem and enjoy tackling
@@ -60,7 +60,7 @@ const About = () => {
                                 </div>
                                 <h3 className="text-2xl font-semibold">Development Philosophy</h3>
                             </div>
-                            <p>
+                            <p className="text-start md:text-center">
                                 I believe in writing clean, maintainable code. Whether it's optimizing
                                 <span className="text-slate-900 dark:text-white font-medium"> MongoDB</span> queries or crafting animations with
                                 <span className="text-slate-900 dark:text-white font-medium"> Framer Motion</span>, I pay close attention to
